@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/readmap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read digests and map fingerprints for local integrity checks.",
+  "bin": {
+    "readmap": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/readmap.git"
+  },
+  "homepage": "https://theworker02.github.io/readmap/",
+  "keywords": [
+    "read",
+    "map",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
